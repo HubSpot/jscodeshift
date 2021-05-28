@@ -1,6 +1,6 @@
 {
   "name": "@hs-internal/jscodeshift",
-  "version": "0.12.1-hubspot-fork",
+  "version": "0.12.2-hubspot-fork",
   "description": "A toolkit for JavaScript codemods",
   "repository": {
     "type": "git",
