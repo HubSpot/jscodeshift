@@ -1,5 +1,5 @@
 {
-  "name": "jscodeshift",
+  "name": "@hs-internal/jscodeshift",
   "version": "0.15.2",
   "description": "A toolkit for JavaScript codemods",
   "repository": {
@@ -12,6 +12,9 @@
     "prepare": "cp -R src/ dist/",
     "test": "jest --bail",
     "docs": "rm -rf docs && jsdoc -d docs -R README.md src/collections/* src/core.js src/Collection.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.hubteam.com/npm-nexus/repository/npm-internal/"
   },
   "bin": {
     "jscodeshift": "./bin/jscodeshift.js"

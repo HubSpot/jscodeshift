@@ -81,6 +81,7 @@ function setup(tr, babel) {
       // By default, babel register only compiles things inside the current working directory.
       // https://github.com/babel/babel/blob/2a4f16236656178e84b05b8915aab9261c55782c/packages/babel-register/src/node.js#L140-L157
       ignore: [
+        /\/node_modules\//,
         // Ignore parser related files
         /@babel\/parser/,
         /\/flow-parser\//,
